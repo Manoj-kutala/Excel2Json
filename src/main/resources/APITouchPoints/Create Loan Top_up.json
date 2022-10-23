@@ -1,0 +1,78 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Client_Loan_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Loan ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "top_up": [
+        {
+            "yubi_standard_field_id": "LT1",
+            "yubi_staindard_field_name": "linked_loan_id",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Existing Loan ID of the customer"
+        },
+        {
+            "yubi_standard_field_id": "LT2",
+            "yubi_staindard_field_name": "foreclosure",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "whether existing loan to be foreclosed"
+        },
+        {
+            "yubi_standard_field_id": "LT3",
+            "yubi_staindard_field_name": "principal",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Principal Amount of existing Loan"
+        },
+        {
+            "yubi_standard_field_id": "LT4",
+            "yubi_staindard_field_name": "interest",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Interest Amount of existing Loan"
+        }
+    ],
+    "top_up.charges": [
+        {
+            "yubi_standard_field_id": "LT5",
+            "yubi_staindard_field_name": "type",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the Top_up Charge"
+        },
+        {
+            "yubi_standard_field_id": "LT6",
+            "yubi_staindard_field_name": "amount",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Top_up Charge amount"
+        }
+    ]
+}

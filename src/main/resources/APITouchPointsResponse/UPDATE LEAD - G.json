@@ -1,0 +1,39 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "CC1",
+            "yubi_staindard_field_name": "Client_Customer_ID",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Originator Customer ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        },
+        {
+            "yubi_standard_field_id": "Y4",
+            "yubi_staindard_field_name": "Yubi_Group_Creation_date",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Group Creation date in YUBI ULS stack"
+        },
+        {
+            "yubi_standard_field_id": "Y5",
+            "yubi_staindard_field_name": "Yubi_Group_ID",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Yubi Group ID"
+        },
+        {
+            "yubi_standard_field_id": "YP3",
+            "yubi_staindard_field_name": "Yubi_Product_Group_ID",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Group Id created in Yubi standalone product"
+        }
+    ]
+}

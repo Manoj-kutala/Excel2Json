@@ -1,0 +1,72 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        }
+    ],
+    "Agri": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Land_Holding_Type",
+            "originatorFieldName": "LandHoldingType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Land_Holding_Value_In_Acres",
+            "originatorFieldName": "LandHoldingValueInAcres",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Land_Holding_Description",
+            "originatorFieldName": "LandHoldingDescription",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Number_of_Cattle",
+            "originatorFieldName": "NumberOfCattle",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "farming_vintage",
+            "originatorFieldName": "FarmingVintage",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "land_holding",
+            "originatorFieldName": "LandHolding",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "cropping_pattern",
+            "originatorFieldName": "CroppingPattern",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "irrigation_source",
+            "originatorFieldName": "IrrigationSource",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "residence_type",
+            "originatorFieldName": "ResidencyType",
+            "datatype": "String"
+        }
+    ]
+}

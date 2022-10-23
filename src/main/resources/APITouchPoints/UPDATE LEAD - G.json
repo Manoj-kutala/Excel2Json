@@ -1,0 +1,27 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "CC1",
+            "yubi_staindard_field_name": "Client_customer_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator Customer ID"
+        }
+    ],
+    "Customer Demographics": [
+        {
+            "yubi_standard_field_id": "CLG1",
+            "yubi_staindard_field_name": "groupName",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Name of the Group"
+        },
+        {
+            "yubi_standard_field_id": "CLG2",
+            "yubi_staindard_field_name": "groupID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "ID of the Group"
+        }
+    ]
+}

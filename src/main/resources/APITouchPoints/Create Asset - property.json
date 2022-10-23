@@ -1,0 +1,316 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Property": [
+        {
+            "yubi_standard_field_id": "AP1",
+            "yubi_staindard_field_name": "Id",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Unique Asset ID"
+        },
+        {
+            "yubi_standard_field_id": "AP2",
+            "yubi_staindard_field_name": "type",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Type of the Property"
+        },
+        {
+            "yubi_standard_field_id": "AP3",
+            "yubi_staindard_field_name": "sub_type",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Sub Type of the property"
+        },
+        {
+            "yubi_standard_field_id": "AP4",
+            "yubi_staindard_field_name": "Age",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Age of the Property in years"
+        },
+        {
+            "yubi_standard_field_id": "AP5",
+            "yubi_staindard_field_name": "FIV Status",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Field Verfication status of the Property"
+        },
+        {
+            "yubi_standard_field_id": "AP6",
+            "yubi_staindard_field_name": "CLSS applicablity",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Credit Linked Subsidy Scheme applicability"
+        },
+        {
+            "yubi_standard_field_id": "AP7",
+            "yubi_staindard_field_name": "Description",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Description of the property"
+        },
+        {
+            "yubi_standard_field_id": "AP8",
+            "yubi_staindard_field_name": "Ownership_Status",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Status of the property"
+        },
+        {
+            "yubi_standard_field_id": "AP9",
+            "yubi_staindard_field_name": "Name of Developer",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the property developer"
+        },
+        {
+            "yubi_standard_field_id": "AP10",
+            "yubi_staindard_field_name": "Category_of_Builder",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Category of the developer"
+        },
+        {
+            "yubi_standard_field_id": "AP11",
+            "yubi_staindard_field_name": "Project Name",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Name of the project"
+        },
+        {
+            "yubi_standard_field_id": "AP12",
+            "yubi_staindard_field_name": "Property_owner_name",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of owner"
+        },
+        {
+            "yubi_standard_field_id": "AP13",
+            "yubi_staindard_field_name": "PropertyValue_self declared",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Approx asset value "
+        },
+        {
+            "yubi_standard_field_id": "AP14",
+            "yubi_staindard_field_name": "Property_Market value",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Asset market value"
+        },
+        {
+            "yubi_standard_field_id": "AP15",
+            "yubi_staindard_field_name": "Occupancy Status",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Occupany Status"
+        },
+        {
+            "yubi_standard_field_id": "AP16",
+            "yubi_staindard_field_name": "Property Area",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Area of the property"
+        },
+        {
+            "yubi_standard_field_id": "AP17",
+            "yubi_staindard_field_name": "Technical_Verification_Parameters",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Parameters captured during the technical evaluation"
+        },
+        {
+            "yubi_standard_field_id": "AP18",
+            "yubi_staindard_field_name": "Title Clear Flag",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Ownership rights clearance"
+        },
+        {
+            "yubi_standard_field_id": "AP19",
+            "yubi_staindard_field_name": "Property Verifier",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Property valuer"
+        },
+        {
+            "yubi_standard_field_id": "AP20",
+            "yubi_staindard_field_name": "Construction Status",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Status of Construction"
+        },
+        {
+            "yubi_standard_field_id": "AP21",
+            "yubi_staindard_field_name": "Property approval authority",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Property approval authority"
+        },
+        {
+            "yubi_standard_field_id": "AP22",
+            "yubi_staindard_field_name": "Property_AreaType",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Urban/Rural/Semi-urban"
+        },
+        {
+            "yubi_standard_field_id": "AP23",
+            "yubi_staindard_field_name": "Mortgage in favour of ",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Mortgage in favour of "
+        },
+        {
+            "yubi_standard_field_id": "AP24",
+            "yubi_staindard_field_name": "Property_residual_age",
+            "isMandatory": false,
+            "dataType": "Integer",
+            "description": "property_residual_age"
+        },
+        {
+            "yubi_standard_field_id": "AP25",
+            "yubi_staindard_field_name": "construction_remaining_tenure",
+            "isMandatory": false,
+            "dataType": "Integer",
+            "description": "Remaining tenure of construction in years"
+        },
+        {
+            "yubi_standard_field_id": "AP26",
+            "yubi_staindard_field_name": "construction_original_tenure",
+            "isMandatory": false,
+            "dataType": "Integer",
+            "description": "Original tenure of construction"
+        },
+        {
+            "yubi_standard_field_id": "AP27",
+            "yubi_staindard_field_name": "construction_total_tenure",
+            "isMandatory": false,
+            "dataType": "Integer",
+            "description": "Ototal tenure of the construction"
+        },
+        {
+            "yubi_standard_field_id": "AP28",
+            "yubi_staindard_field_name": "Property_registration_charges",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Amount of the Property registration charges"
+        },
+        {
+            "yubi_standard_field_id": "AP29",
+            "yubi_staindard_field_name": "Cost_of _Building",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Cost of the Building "
+        },
+        {
+            "yubi_standard_field_id": "AP30",
+            "yubi_staindard_field_name": "Cost_of_Plot",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Cost of the Plot "
+        },
+        {
+            "yubi_standard_field_id": "AP31",
+            "yubi_staindard_field_name": "Total_Cost_of_Property",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Total cost of the Property"
+        },
+        {
+            "yubi_standard_field_id": "AP32",
+            "yubi_staindard_field_name": "Property_Valuation_method",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "How has the property been valued?"
+        },
+        {
+            "yubi_standard_field_id": "AP33",
+            "yubi_staindard_field_name": "manufacturer_name",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Name of the manufacturer"
+        },
+        {
+            "yubi_standard_field_id": "AP34",
+            "yubi_staindard_field_name": "Whether Asset is in negative area",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Is the asset present in negative area?"
+        },
+        {
+            "yubi_standard_field_id": "AP35",
+            "yubi_staindard_field_name": "GEO LIMIT",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Geo limit for the asset from the branch location"
+        },
+        {
+            "yubi_standard_field_id": "AP36",
+            "yubi_staindard_field_name": "VALUER NAME 1",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the first valuer"
+        },
+        {
+            "yubi_standard_field_id": "AP37",
+            "yubi_staindard_field_name": "VALUER NAME 2",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the second valuer"
+        },
+        {
+            "yubi_standard_field_id": "AP38",
+            "yubi_staindard_field_name": "AssetID",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "ID of the Asset"
+        },
+        {
+            "yubi_standard_field_id": "AP39",
+            "yubi_staindard_field_name": "Asset_VALUATION_TYPE",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "How has the property been valued?"
+        },
+        {
+            "yubi_standard_field_id": "AP40",
+            "yubi_staindard_field_name": "Machinery Hypothecated to - ",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Which institution/ individual is the machinery hypothecated to currently?"
+        }
+    ],
+    "Extensions": [
+        {
+            "yubi_standard_field_id": "AP41",
+            "yubi_staindard_field_name": "key",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Extension keys"
+        },
+        {
+            "yubi_standard_field_id": "AP42",
+            "yubi_staindard_field_name": "Value",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Extension Value"
+        }
+    ]
+}

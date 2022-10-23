@@ -1,0 +1,60 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "OriginatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        }
+    ],
+    "FMCD": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Product_category",
+            "originatorFieldName": "ProductCategory",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Down_Payment_Amount",
+            "originatorFieldName": "DownPaymentAmount",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Price_of_Product",
+            "originatorFieldName": "PriceOfProduct",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Retailer_Name",
+            "originatorFieldName": "RetailerName",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Manufacturer_Name",
+            "originatorFieldName": "ManufacturerName",
+            "datatype": "fac"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Model_Name",
+            "originatorFieldName": "ModelName",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Model_Year",
+            "originatorFieldName": "ModelYear",
+            "datatype": "Number"
+        }
+    ]
+}

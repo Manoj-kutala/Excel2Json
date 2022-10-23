@@ -1,0 +1,69 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "FMCD": [
+        {
+            "yubi_standard_field_id": "AF1",
+            "yubi_staindard_field_name": "Product category",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Product Category"
+        },
+        {
+            "yubi_standard_field_id": "AF2",
+            "yubi_staindard_field_name": "Down Payment Amount",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Down Payment Amount for product purchased"
+        },
+        {
+            "yubi_standard_field_id": "AF3",
+            "yubi_staindard_field_name": "Price of Product",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Price of the Product"
+        },
+        {
+            "yubi_standard_field_id": "AF4",
+            "yubi_staindard_field_name": "Retailer Name",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the Retailer"
+        },
+        {
+            "yubi_standard_field_id": "AF5",
+            "yubi_staindard_field_name": "Manufacturer Name",
+            "isMandatory": false,
+            "dataType": "fac",
+            "description": "Name of the Manufacturer"
+        },
+        {
+            "yubi_standard_field_id": "AF6",
+            "yubi_staindard_field_name": "Model Name",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Model of the product"
+        },
+        {
+            "yubi_standard_field_id": "AF7",
+            "yubi_staindard_field_name": "Model Year",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Year when the product was manufactured"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Client_Loan_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Loan ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "tranche": [
+        {
+            "yubi_standard_field_id": "LT1",
+            "yubi_staindard_field_name": "trancheNumber",
+            "isMandatory": true,
+            "dataType": "Number",
+            "description": "Trnahce number of the disbursement"
+        },
+        {
+            "yubi_standard_field_id": "LT2",
+            "yubi_staindard_field_name": "tranchePrincipal",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Tranche Principal Amount"
+        },
+        {
+            "yubi_standard_field_id": "LT3",
+            "yubi_staindard_field_name": "numberOfTranches",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Remaining Number of tranches for the loan"
+        },
+        {
+            "yubi_standard_field_id": "LT4",
+            "yubi_staindard_field_name": "balance_loan_Principal",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Blance Loan principal after the tranche"
+        }
+    ],
+    "Tranche.Charges": [
+        {
+            "yubi_standard_field_id": "LT5",
+            "yubi_staindard_field_name": "charge",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Type of Disbursement Deduction"
+        },
+        {
+            "yubi_standard_field_id": "LT6",
+            "yubi_staindard_field_name": "amount",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Value of Disbursement Deduction"
+        }
+    ]
+}

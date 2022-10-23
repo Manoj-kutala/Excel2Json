@@ -1,0 +1,62 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Instrument": [
+        {
+            "yubi_standard_field_id": "AI1",
+            "yubi_staindard_field_name": "Instrument_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Instrument ID "
+        },
+        {
+            "yubi_standard_field_id": "AI2",
+            "yubi_staindard_field_name": "Instrument_Value",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Value of the instrument"
+        },
+        {
+            "yubi_standard_field_id": "AI3",
+            "yubi_staindard_field_name": "Instrument_Date",
+            "isMandatory": true,
+            "dataType": "Date",
+            "description": "Date of the Instrument"
+        },
+        {
+            "yubi_standard_field_id": "AI4",
+            "yubi_staindard_field_name": "Instrument_GRN",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Amount of the Goods reciept number"
+        },
+        {
+            "yubi_standard_field_id": "AI5",
+            "yubi_staindard_field_name": "Instrument_GRN_Date",
+            "isMandatory": false,
+            "dataType": "Date",
+            "description": "Date of the Goods reciept number"
+        },
+        {
+            "yubi_standard_field_id": "AI6",
+            "yubi_staindard_field_name": "EWB_Date",
+            "isMandatory": false,
+            "dataType": "Date",
+            "description": "Date of E-Way bill"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_customer_ID",
+            "originatorFieldName": "clientCustomerID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Borrower_ID",
+            "originatorFieldName": "yubiBorrowerID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Product_Borrower_ID",
+            "originatorFieldName": "YubiProductBorrowerID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Application_Id",
+            "originatorFieldName": "YubiApplicationId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Product_Application_Id",
+            "originatorFieldName": "YubiProductApplicationId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplictionID",
+            "datatype": "String"
+        }
+    ]
+}

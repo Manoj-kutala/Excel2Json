@@ -1,0 +1,96 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Loan_ID",
+            "originatorFieldName": "ClientLoanID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        }
+    ],
+    "Balance Transfer": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Name_of_BT_Financier",
+            "originatorFieldName": "NAmeOfBTFinancier",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Loan_Amount_of_Original_Loan",
+            "originatorFieldName": "LoanAmountOfOriginalLoan",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Tenure_of_Original_Loan_in_months",
+            "originatorFieldName": "TenureOfOriginalLoanInMonths",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Balance_Tenure_of_Original_Loan_in_months",
+            "originatorFieldName": "BalanceTenureOfOriginalLoanInMonths",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "POS_of_Original_Loan",
+            "originatorFieldName": "POSOfOriginalLoan",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "No_of_EMI_paid_in_Base_Loan",
+            "originatorFieldName": "NoOfEMIPaidInBaseLoan",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "DPD_in_last_6M_in_Base_Loan",
+            "originatorFieldName": "DPDInLast6MInBaseLoan",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Bounces_in_last_6M_in_base_loan",
+            "originatorFieldName": "BouncesInLast6MInBaseLoan",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Approve_LTV_of_Original_Loan",
+            "originatorFieldName": "ApprovedLTVOfOriginalLoan",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "LTV_of_Top_up_loan",
+            "originatorFieldName": "LTVOfTopUpLoan",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Percentage_of_Reduction_In_Principal",
+            "originatorFieldName": "PercentageOfReductionInPrincipal",
+            "datatype": "Float"
+        }
+    ]
+}

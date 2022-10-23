@@ -1,0 +1,10 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Asset_ID",
+            "originatorFieldName": "YubiAssetID",
+            "datatype": "String"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "CC1",
+            "yubi_staindard_field_name": "Client_Customer_ID",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Originator Customer ID"
+        },
+        {
+            "yubi_standard_field_id": "Y1",
+            "yubi_staindard_field_name": "Yubi_Borrower_ID",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Yubi Borrower ID"
+        },
+        {
+            "yubi_standard_field_id": "YP1",
+            "yubi_staindard_field_name": "Yubi_Product_Borrower_ID",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Borrower Id created in Yubi standalone product"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        },
+        {
+            "yubi_standard_field_id": "Y3",
+            "yubi_staindard_field_name": "Yubi_Borrower_status",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Borrower status in YUBI ULS stack"
+        },
+        {
+            "yubi_standard_field_id": "YP2",
+            "yubi_staindard_field_name": "Yubi_Product_Borrower_Status",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Borrower status in YUBI product"
+        },
+        {
+            "yubi_standard_field_id": "Y4",
+            "yubi_staindard_field_name": "Yubi_borrower_Creation_date",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Borrower Creation date in YUBI ULS stack"
+        }
+    ]
+}

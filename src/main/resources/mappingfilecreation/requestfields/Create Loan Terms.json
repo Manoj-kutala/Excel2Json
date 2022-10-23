@@ -1,0 +1,160 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        }
+    ],
+    "Loan Terms": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "loan_Type",
+            "originatorFieldName": "LoanType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "loan_Sub_Type",
+            "originatorFieldName": "LoanSubType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "principal",
+            "originatorFieldName": "Principal",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "interest_Rate",
+            "originatorFieldName": "InterestRate",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "purpose",
+            "originatorFieldName": "Purpose",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "interest_type",
+            "originatorFieldName": "interestType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "tenure_Of_Loan",
+            "originatorFieldName": "TenureOfLoan",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "repayment_Frequency",
+            "originatorFieldName": "RepaymentFrequency",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "disbursement_Type",
+            "originatorFieldName": "DisbursementType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "number_Of_Repayments",
+            "originatorFieldName": "NumberOfRepayments",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "repayment_Mode",
+            "originatorFieldName": "RepaymentMode",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "loan_cycle",
+            "originatorFieldName": "LoanCycle",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "EMI Amount",
+            "originatorFieldName": "EmiAmount",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "FIRST_REPAYMENT_DATE",
+            "originatorFieldName": "FirstRepaymentDate",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Advance_EMI",
+            "originatorFieldName": "AdvanceEMI",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Differential_Interest_Start_date",
+            "originatorFieldName": "DifferentialInterestStartDate",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Differential_Interest_Amount",
+            "originatorFieldName": "DifferentialInterestAmount",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "umrn",
+            "originatorFieldName": "Umrn",
+            "datatype": "String"
+        }
+    ],
+    "Loanterms.Charges": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "charge",
+            "originatorFieldName": "Charge",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "amount",
+            "originatorFieldName": "Amount",
+            "datatype": "String"
+        }
+    ],
+    "Loanterms.Disbursed": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Bank_Disbursal_date",
+            "originatorFieldName": "BankDisbursalDate",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Deal_date",
+            "originatorFieldName": "DealDate",
+            "datatype": "String"
+        }
+    ]
+}

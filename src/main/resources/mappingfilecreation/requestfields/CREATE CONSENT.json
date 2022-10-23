@@ -1,0 +1,48 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "originator_ID",
+            "originatorFieldName": "originatorId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_customer_ID",
+            "originatorFieldName": "clientCustomerId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationId",
+            "datatype": "String"
+        }
+    ],
+    "Consent Details": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Consent_Date",
+            "originatorFieldName": "ConsentDate",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Consent_for",
+            "originatorFieldName": "ConsentFor",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "I_P_Address",
+            "originatorFieldName": "IPAddress",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Remarks",
+            "originatorFieldName": "Remarks",
+            "datatype": "String"
+        }
+    ]
+}

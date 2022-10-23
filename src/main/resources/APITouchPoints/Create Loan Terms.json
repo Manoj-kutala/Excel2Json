@@ -1,0 +1,185 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Loan Terms": [
+        {
+            "yubi_standard_field_id": "A2",
+            "yubi_staindard_field_name": "loanType",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Type of the Loan"
+        },
+        {
+            "yubi_standard_field_id": "A3",
+            "yubi_staindard_field_name": "loanSubType",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Loan Sub_Type"
+        },
+        {
+            "yubi_standard_field_id": "A4",
+            "yubi_staindard_field_name": "principal",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Loan Amount"
+        },
+        {
+            "yubi_standard_field_id": "A5",
+            "yubi_staindard_field_name": "interestRate",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Interest rate for the Loan"
+        },
+        {
+            "yubi_standard_field_id": "A6",
+            "yubi_staindard_field_name": "purpose",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Purpose of the Loan"
+        },
+        {
+            "yubi_standard_field_id": "A7",
+            "yubi_staindard_field_name": "interest_type",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Interest_type of the loan"
+        },
+        {
+            "yubi_standard_field_id": "A8",
+            "yubi_staindard_field_name": "tenureOfLoan",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Loan Tenure"
+        },
+        {
+            "yubi_standard_field_id": "A9",
+            "yubi_staindard_field_name": "repaymentFrequency",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Repayment Frequency"
+        },
+        {
+            "yubi_standard_field_id": "A10",
+            "yubi_staindard_field_name": "disbursementType",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Disbursement Type of the Loan"
+        },
+        {
+            "yubi_standard_field_id": "A11",
+            "yubi_staindard_field_name": "numberOfRepayments",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "No. of repayments for the loan"
+        },
+        {
+            "yubi_standard_field_id": "A12",
+            "yubi_staindard_field_name": "repaymentMode",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Customer repayment mode"
+        },
+        {
+            "yubi_standard_field_id": "A13",
+            "yubi_staindard_field_name": "loan_cycle",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "the Number of repeated loan of the customer"
+        },
+        {
+            "yubi_standard_field_id": "A14",
+            "yubi_staindard_field_name": "EMI Amount",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "EMI Amount for the Loan"
+        },
+        {
+            "yubi_standard_field_id": "A15",
+            "yubi_staindard_field_name": "FIRST_REPAYMENT_DATE",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "First Repayment Date of the Loan"
+        },
+        {
+            "yubi_standard_field_id": "A16",
+            "yubi_staindard_field_name": "Advance_EMI",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Advance EMI to be deducted for the loan if any"
+        },
+        {
+            "yubi_standard_field_id": "A17",
+            "yubi_staindard_field_name": "Differential_Interest_Start_date",
+            "isMandatory": false,
+            "dataType": "Date",
+            "description": "Interest start date for Broken period days"
+        },
+        {
+            "yubi_standard_field_id": "A18",
+            "yubi_staindard_field_name": "Differential_Interest_Amount",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Broken Period Interest Amount"
+        },
+        {
+            "yubi_standard_field_id": "A19",
+            "yubi_staindard_field_name": "umrn",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "NACH Registration number"
+        }
+    ],
+    "Loanterms.Charges": [
+        {
+            "yubi_standard_field_id": "A20",
+            "yubi_staindard_field_name": "charge",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Type of Disbursement Deduction"
+        },
+        {
+            "yubi_standard_field_id": "A21",
+            "yubi_staindard_field_name": "amount",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Value of Disbursement Deduction"
+        }
+    ],
+    "Loanterms.Disbursed": [
+        {
+            "yubi_standard_field_id": "A22",
+            "yubi_staindard_field_name": "Bank_Disbursal_date",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Disbursal Date for the Loans already disbursed"
+        },
+        {
+            "yubi_standard_field_id": "A23",
+            "yubi_staindard_field_name": "Deal_date",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Date when it is getting sold to the Investor"
+        }
+    ]
+}

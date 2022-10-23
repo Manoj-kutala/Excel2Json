@@ -1,0 +1,80 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Loan_ID",
+            "originatorFieldName": "ClientLoanID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        }
+    ],
+    "Insurance": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "type",
+            "originatorFieldName": "Type",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Insurer_Name",
+            "originatorFieldName": "InsurerTeam",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Insured_Amount",
+            "originatorFieldName": "InsuredAmount",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "premium_Amount",
+            "originatorFieldName": "PremiumAmount",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Policy_number",
+            "originatorFieldName": "PolicyNumber",
+            "datatype": "Number"
+        }
+    ],
+    "Insurance.nominees": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "name",
+            "originatorFieldName": "Name",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "date_Of_Birth",
+            "originatorFieldName": "DateOfBirth",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "relationship",
+            "originatorFieldName": "Relationship",
+            "datatype": "String"
+        }
+    ]
+}

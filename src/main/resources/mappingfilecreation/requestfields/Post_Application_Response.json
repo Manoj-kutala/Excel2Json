@@ -1,0 +1,40 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Application_Id",
+            "originatorFieldName": "YubiApplicationID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Product_Application_Id",
+            "originatorFieldName": "YubiProductApplicationID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Lender_Application_id",
+            "originatorFieldName": "LenderApplicationId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Application_status",
+            "originatorFieldName": "YubiApplicationStatus",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        }
+    ]
+}

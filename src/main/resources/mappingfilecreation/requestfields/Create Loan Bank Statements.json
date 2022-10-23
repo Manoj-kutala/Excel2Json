@@ -1,0 +1,90 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Loan_ID",
+            "originatorFieldName": "ClientLoanID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        }
+    ],
+    "BankStatements": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "BANK_ACCOUNT_TYPE_FOR_ASSESSMENT",
+            "originatorFieldName": "BankAccountTyperForAssesment",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "NO_OF_INWARD_CHQ_RETURNS_SAVINGS ACCOUNT ",
+            "originatorFieldName": "NoOfInwardChqReturnsSavingsAccount",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "NO_OF_OUTWARD_CHQ_RETURNS_SAVINGS ACCOUNT",
+            "originatorFieldName": "NoOfOutwardChqReturnsSavingsAccount",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "NO_OF_INWARD_CHQ_RETURNS_CURRENT_ACCOUNT ",
+            "originatorFieldName": "NoOfInwardChqReturnsCurrentAccount",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "NO_OF_OUTWARD_CHQ_RETURNS_CURRENT ACCOUNT",
+            "originatorFieldName": "NoOfOutwardChqReturnsCurrentAccount",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "No_of_bank_transactions",
+            "originatorFieldName": "NoOfBankTransactions",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "No_of_Inward_transactions",
+            "originatorFieldName": "NoOfInwardTransactions",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Credit_Summation",
+            "originatorFieldName": "CreditSummation",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "ABB",
+            "originatorFieldName": "ABB",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "ABD",
+            "originatorFieldName": "ABD",
+            "datatype": "Number"
+        }
+    ]
+}

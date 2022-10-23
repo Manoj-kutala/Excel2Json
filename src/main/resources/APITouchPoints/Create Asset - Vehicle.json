@@ -1,0 +1,230 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Client_Loan_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Loan ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Asset.Vehicle": [
+        {
+            "yubi_standard_field_id": "AV1",
+            "yubi_staindard_field_name": "ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Unique Asset ID"
+        },
+        {
+            "yubi_standard_field_id": "AV2",
+            "yubi_staindard_field_name": "Type",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Usage status of the Vehicle"
+        },
+        {
+            "yubi_standard_field_id": "AV3",
+            "yubi_staindard_field_name": "Category",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Category of the Vehicle"
+        },
+        {
+            "yubi_standard_field_id": "AV4",
+            "yubi_staindard_field_name": "COST OF VEHICLE",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Vehicle_Purchase_Price"
+        },
+        {
+            "yubi_standard_field_id": "AV5",
+            "yubi_staindard_field_name": "NAME OF THE DEALER ",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the dealer"
+        },
+        {
+            "yubi_standard_field_id": "AV6",
+            "yubi_staindard_field_name": "VEHICLE MAKE",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Vehicle make"
+        },
+        {
+            "yubi_standard_field_id": "AV7",
+            "yubi_staindard_field_name": "VEHICLE MODEL",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Vehicle Model"
+        },
+        {
+            "yubi_standard_field_id": "AV8",
+            "yubi_staindard_field_name": "VEHICLE MODEL_year",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Vehicle Model Year"
+        },
+        {
+            "yubi_standard_field_id": "AV9",
+            "yubi_staindard_field_name": "VEHICLE REG NO ",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Vehicle Registration Number"
+        },
+        {
+            "yubi_standard_field_id": "AV10",
+            "yubi_staindard_field_name": "VEHICLE SEAT_CAPACITY",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Vehicle Seating Capacity"
+        },
+        {
+            "yubi_standard_field_id": "AV11",
+            "yubi_staindard_field_name": "VEHICLE CC ",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Vehicle CC"
+        },
+        {
+            "yubi_standard_field_id": "AV12",
+            "yubi_staindard_field_name": "Battery Type",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "The type of battery"
+        },
+        {
+            "yubi_standard_field_id": "AV13",
+            "yubi_staindard_field_name": "CHASIS NUMBER ",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Chassis Number"
+        },
+        {
+            "yubi_standard_field_id": "AV14",
+            "yubi_staindard_field_name": "ENGINE NUMBER ",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Engine Number"
+        },
+        {
+            "yubi_standard_field_id": "AV15",
+            "yubi_staindard_field_name": "Vehice Registration date",
+            "isMandatory": false,
+            "dataType": "Date",
+            "description": "Date on which the registration was done"
+        },
+        {
+            "yubi_standard_field_id": "AV16",
+            "yubi_staindard_field_name": "RTO_reg_NUMBER",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "RTO registration number"
+        },
+        {
+            "yubi_standard_field_id": "AV17",
+            "yubi_staindard_field_name": "ON_ROAD_PRICE",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "On road Price"
+        },
+        {
+            "yubi_standard_field_id": "AV18",
+            "yubi_staindard_field_name": "DOWN_PAYMENT_AMOUNT",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Down Payment Amount"
+        },
+        {
+            "yubi_standard_field_id": "AV19",
+            "yubi_staindard_field_name": "Sub_category",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Tipper/Bus/Goods/SEDAN/SUV/MUV/Passenger/SS Tanker/MS Tanker/School Bus/Seater Coach Bus/Bulker/Trailer/SEDAN/Non AC Bus/AC Bus/Sleeper Coach Bus/PV/MHCV/LCV/SCV"
+        },
+        {
+            "yubi_standard_field_id": "AV20",
+            "yubi_staindard_field_name": "Ownership",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Owned/Rented"
+        },
+        {
+            "yubi_standard_field_id": "AV21",
+            "yubi_staindard_field_name": "GRID VALUE OF THE VEHICLE",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "GRid value of the vehicle"
+        },
+        {
+            "yubi_standard_field_id": "AV22",
+            "yubi_staindard_field_name": "VEHICLE PRESENT MARKET VALUE",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Present Market value of the vehicle"
+        },
+        {
+            "yubi_standard_field_id": "AV23",
+            "yubi_staindard_field_name": "INSURANCE ASSESSEMENT VALUE",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Insurance assessment value"
+        },
+        {
+            "yubi_standard_field_id": "AV24",
+            "yubi_staindard_field_name": "VEHICLE BUYER TYPE",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "SRT/FTU/Self-employed/Salaried/Captive/Retail/FTU 1/Strategic/SRT/LEV"
+        },
+        {
+            "yubi_standard_field_id": "AV25",
+            "yubi_staindard_field_name": "VEHICLE Usage",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "For Business/Personal use"
+        },
+        {
+            "yubi_standard_field_id": "AV26",
+            "yubi_staindard_field_name": "Sight inspection report value\t",
+            "isMandatory": false,
+            "dataType": "number",
+            "description": "Value of the vehicle after checking all the parts are inspected by Inspection manager\t"
+        },
+        {
+            "yubi_standard_field_id": "AV27",
+            "yubi_staindard_field_name": "VEHICLE AGE",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Age of the Vehicel basis Vehicle Model Year. "
+        },
+        {
+            "yubi_standard_field_id": "AV28",
+            "yubi_staindard_field_name": "VEHICLE AGE TO LOAN MATURITY",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Age of the Vehicel at the time of loan maturity basis the model year and Loan Tenure"
+        }
+    ]
+}

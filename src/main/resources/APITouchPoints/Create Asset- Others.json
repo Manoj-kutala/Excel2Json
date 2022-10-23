@@ -1,0 +1,55 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Asset.Others": [
+        {
+            "yubi_standard_field_id": "AO1",
+            "yubi_staindard_field_name": "ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Unique Asset ID"
+        },
+        {
+            "yubi_standard_field_id": "AO2",
+            "yubi_staindard_field_name": "AssetCategory",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Category of the Asset"
+        },
+        {
+            "yubi_standard_field_id": "AO3",
+            "yubi_staindard_field_name": "AssetOwnedBy",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of owner"
+        },
+        {
+            "yubi_standard_field_id": "AO4",
+            "yubi_staindard_field_name": "AssetValue_self declared",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Approx asset value "
+        },
+        {
+            "yubi_standard_field_id": "AO5",
+            "yubi_staindard_field_name": "Asset Market value",
+            "isMandatory": true,
+            "dataType": "Number",
+            "description": "Asset market value"
+        }
+    ]
+}

@@ -1,0 +1,274 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        }
+    ],
+    "Property": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Id",
+            "originatorFieldName": "Id",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "type",
+            "originatorFieldName": "Type",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "sub_type",
+            "originatorFieldName": "Subtype",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Age",
+            "originatorFieldName": "Age",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "FIV_Status",
+            "originatorFieldName": "FivStatus",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "CLSS_applicablity",
+            "originatorFieldName": "ClssApplicability",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Description",
+            "originatorFieldName": "Description",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Ownership_Status",
+            "originatorFieldName": "OwnershipStatus",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Name_of_Developer",
+            "originatorFieldName": "NameOfDeveloper",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Category_of_Builder",
+            "originatorFieldName": "CategoryOfBuilder",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Project_Name",
+            "originatorFieldName": "ProjectName",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Property_owner_name",
+            "originatorFieldName": "PropertyOwnerNAme",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "PropertyValue_self_declared",
+            "originatorFieldName": "PropertyValueSelfDeclared",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Property_Market_value",
+            "originatorFieldName": "PropertyMarketValue",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Occupancy_Status",
+            "originatorFieldName": "OccupancyStatus",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Property_Area",
+            "originatorFieldName": "PropertyArea",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Technical_Verification_Parameters",
+            "originatorFieldName": "TechnicalVerificationParameters",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Title_Clear_Flag",
+            "originatorFieldName": "TitleClearFlag",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Property_Verifier",
+            "originatorFieldName": "PropertyVerifier",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Construction_Status",
+            "originatorFieldName": "ConstructionStatus",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Property_approval_authority",
+            "originatorFieldName": "PropertyApprovalAuthority",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Property_AreaType",
+            "originatorFieldName": "PropertyAreaType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Mortgage_in_favour_of",
+            "originatorFieldName": "MortgageInFavourOf",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Property_residual_age",
+            "originatorFieldName": "PropertyResidualAge",
+            "datatype": "Integer"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "construction_remaining_tenure",
+            "originatorFieldName": "ConstructionRemainingTenure",
+            "datatype": "Integer"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "construction_original_tenure",
+            "originatorFieldName": "ConstructionOriginalTenure",
+            "datatype": "Integer"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "construction_total_tenure",
+            "originatorFieldName": "ConstructionTotalTenure",
+            "datatype": "Integer"
+        },
+
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Property_registration_charges",
+            "originatorFieldName": "PropertyRegistrationCharges",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Cost_of _Building",
+            "originatorFieldName": "CostOfBuilding",
+            "datatype": "Float"
+        },
+
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Cost_of_Plot",
+            "originatorFieldName": "CostOfPlot",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Total_Cost_of_Property",
+            "originatorFieldName": "TotalCostOfProperty",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Property_Valuation_method",
+            "originatorFieldName": "PropertyValuationMethod",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "manufacturer_name",
+            "originatorFieldName": "ManufacturerName",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Whether_Asset_is_in_negative_area",
+            "originatorFieldName": "WheatherAssetInNegativeArea",
+            "datatype": "String"
+        },
+
+        {
+            "isMandatory": false,
+            "yubiFieldName": "GEO_LIMIT",
+            "originatorFieldName": "GeoLimit",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "VALUER_NAME_1",
+            "originatorFieldName": "ValuerName1",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "VALUER_NAME_2",
+            "originatorFieldName": "ValuerName2",
+            "datatype": "String"
+        },{
+            "isMandatory": false,
+            "yubiFieldName": "AssetID",
+            "originatorFieldName": "AssetID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Asset_VALUATION_TYPE",
+            "originatorFieldName": "AssetValuationType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Machinery_Hypothecated_to",
+            "originatorFieldName": "MachineryHypothecatedTo",
+            "datatype": "String"
+        }
+    ],
+    "Extensions": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "key",
+            "originatorFieldName": "Key",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Value",
+            "originatorFieldName": "Value",
+            "datatype": "String"
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "A24",
+            "yubi_staindard_field_name": "dateOfCreation",
+            "isMandatory": true,
+            "dataType": "Date",
+            "description": "Date of Creation of Application"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        }
+    ],
+    "Applicants": [
+        {
+            "yubi_standard_field_id": "A25",
+            "yubi_staindard_field_name": "Type",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Type of the Applicant"
+        },
+        {
+            "yubi_standard_field_id": "CC1",
+            "yubi_staindard_field_name": "Client_Customer_id",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "One Applicant is Mandatory"
+        },
+        {
+            "yubi_standard_field_id": "A26",
+            "yubi_staindard_field_name": "Relationship with borrower",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Applicant relationship with Borrower"
+        }
+    ],
+    "Ratios": [
+        {
+            "yubi_standard_field_id": "A27",
+            "yubi_staindard_field_name": "key",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Key Ratios for the Loan"
+        },
+        {
+            "yubi_standard_field_id": "A28",
+            "yubi_staindard_field_name": "Value",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Value of the above Ratio"
+        }
+    ],
+    "References": [
+        {
+            "yubi_standard_field_id": "A29",
+            "yubi_staindard_field_name": "Name",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the Reference Contact"
+        },
+        {
+            "yubi_standard_field_id": "A30",
+            "yubi_staindard_field_name": "Mobile",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Mobile of the Reference Contact"
+        },
+        {
+            "yubi_standard_field_id": "A31",
+            "yubi_staindard_field_name": "Email",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Email of the Reference Contact"
+        },
+        {
+            "yubi_standard_field_id": "A32",
+            "yubi_staindard_field_name": "Relationship with borrower",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Reference Contact Relationship with Borrower"
+        }
+    ],
+    "Origination": [
+        {
+            "yubi_standard_field_id": "A33",
+            "yubi_staindard_field_name": "Branch_Code",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Branch cide of the loan originated branch"
+        },
+        {
+            "yubi_standard_field_id": "A34",
+            "yubi_staindard_field_name": "Branch_Name",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Branch name of the loan originated branch"
+        }
+    ]
+}

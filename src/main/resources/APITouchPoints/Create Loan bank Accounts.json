@@ -1,0 +1,120 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Client_Loan_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Loan ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Account": [
+        {
+            "yubi_standard_field_id": "B1",
+            "yubi_staindard_field_name": "Account_Holder_type",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Account_holder_type"
+        },
+        {
+            "yubi_standard_field_id": "B2",
+            "yubi_staindard_field_name": "account_Holder_Name",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Name of the Account Holder"
+        },
+        {
+            "yubi_standard_field_id": "B3",
+            "yubi_staindard_field_name": "Bank_accountType",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Account type - Savings/Current/Overdraft/CC"
+        },
+        {
+            "yubi_standard_field_id": "B4",
+            "yubi_staindard_field_name": "accountNumber",
+            "isMandatory": true,
+            "dataType": "number",
+            "description": "Bank Account Number"
+        },
+        {
+            "yubi_standard_field_id": "B5",
+            "yubi_staindard_field_name": "vpa",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "UPI ID of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "B6",
+            "yubi_staindard_field_name": "bankName",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the Bank"
+        },
+        {
+            "yubi_standard_field_id": "B7",
+            "yubi_staindard_field_name": "branchName",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Branch name of the Bank account"
+        },
+        {
+            "yubi_standard_field_id": "B8",
+            "yubi_staindard_field_name": "branchIFSC",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "IFSC Code of the Branch"
+        },
+        {
+            "yubi_standard_field_id": "B9",
+            "yubi_staindard_field_name": "dateOfOpening",
+            "isMandatory": false,
+            "dataType": "Date",
+            "description": "Date of Bank account opening"
+        }
+    ],
+    "Account.Penny test": [
+        {
+            "yubi_standard_field_id": "B10",
+            "yubi_staindard_field_name": "Status",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Penny testing status of the account"
+        },
+        {
+            "yubi_standard_field_id": "B11",
+            "yubi_staindard_field_name": "amount",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Amount tested for penny testing"
+        },
+        {
+            "yubi_standard_field_id": "B12",
+            "yubi_staindard_field_name": "accountNumber",
+            "isMandatory": false,
+            "dataType": "number",
+            "description": "Bank Account Number"
+        }
+    ]
+}

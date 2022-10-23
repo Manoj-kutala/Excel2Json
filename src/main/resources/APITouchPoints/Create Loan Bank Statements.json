@@ -1,0 +1,104 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Client_Loan_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Loan ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "BankStatements": [
+        {
+            "yubi_standard_field_id": "LBS1",
+            "yubi_staindard_field_name": "BANK ACCOUNT TYPE FOR ASSESSMENT",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Account type - Savings/Current/Overdraft/CC"
+        },
+        {
+            "yubi_standard_field_id": "LBS2",
+            "yubi_staindard_field_name": "NO_OF_INWARD_CHQ_RETURNS_SAVINGS ACCOUNT ",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Number of inward cheque returns in savings account"
+        },
+        {
+            "yubi_standard_field_id": "LBS3",
+            "yubi_staindard_field_name": "NO_OF_OUTWARD_CHQ_RETURNS_SAVINGS ACCOUNT",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Number of outward cheque returns in savings account"
+        },
+        {
+            "yubi_standard_field_id": "LBS4",
+            "yubi_staindard_field_name": "NO_OF_INWARD_CHQ_RETURNS_CURRENT_ACCOUNT ",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Number of inward cheque returns in current account"
+        },
+        {
+            "yubi_standard_field_id": "LBS5",
+            "yubi_staindard_field_name": "NO_OF_OUTWARD_CHQ_RETURNS_CURRENT ACCOUNT",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Number of outward cheque returns in current account"
+        },
+        {
+            "yubi_standard_field_id": "LBS6",
+            "yubi_staindard_field_name": "No of bank transactions",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Number of bank transactions done"
+        },
+        {
+            "yubi_standard_field_id": "LBS7",
+            "yubi_staindard_field_name": "No of Inward transactions",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Number of inward transactions received"
+        },
+        {
+            "yubi_standard_field_id": "LBS8",
+            "yubi_staindard_field_name": "Credit Summation",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Sum of all the credits in the bank statement"
+        },
+        {
+            "yubi_standard_field_id": "LBS9",
+            "yubi_staindard_field_name": "ABB",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Average bank balance maintaiend on the EMI dates; ABB as calculated by the originator for last 12 months"
+        },
+        {
+            "yubi_standard_field_id": "LBS10",
+            "yubi_staindard_field_name": "ABD",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Average monthly bank depositsfor last 12 months"
+        }
+    ]
+}

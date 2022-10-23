@@ -1,0 +1,96 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "date_Of_Creation",
+            "originatorFieldName": "DateOfCreation",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationID",
+            "datatype": "String"
+        }
+    ],
+    "Applicants": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Type",
+            "originatorFieldName": "Type",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Customer_id",
+            "originatorFieldName": "ClientCustomerId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Relationship_with_borrower",
+            "originatorFieldName": "RelationshipWithBorrower",
+            "datatype": "String"
+        }
+    ],
+    "Ratios": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "key",
+            "originatorFieldName": "Key",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Value",
+            "originatorFieldName": "Value",
+            "datatype": "String"
+        }
+    ],
+    "References": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Name",
+            "originatorFieldName": "Name",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Mobile",
+            "originatorFieldName": "Mobile",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Email",
+            "originatorFieldName": "Email",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Relationship_with_borrower",
+            "originatorFieldName": "RelatioshipWithBorrower",
+            "datatype": "String"
+        }
+    ],
+    "Origination": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Branch_Code",
+            "originatorFieldName": "BranchCode",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Branch_Name",
+            "originatorFieldName": "BranchName",
+            "datatype": "String"
+        }
+    ]
+}

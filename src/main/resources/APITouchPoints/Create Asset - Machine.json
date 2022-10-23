@@ -1,0 +1,146 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Asset.Machinery": [
+        {
+            "yubi_standard_field_id": "AM1",
+            "yubi_staindard_field_name": "Id",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Unique Asset ID"
+        },
+        {
+            "yubi_standard_field_id": "AM2",
+            "yubi_staindard_field_name": "AssetCategory",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Category of the Asset"
+        },
+        {
+            "yubi_standard_field_id": "AM3",
+            "yubi_staindard_field_name": "AssetOwnedBy",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of owner"
+        },
+        {
+            "yubi_standard_field_id": "AM4",
+            "yubi_staindard_field_name": "AssetValue_self declared",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Approx asset value "
+        },
+        {
+            "yubi_standard_field_id": "AM5",
+            "yubi_staindard_field_name": "Asset Market value",
+            "isMandatory": true,
+            "dataType": "Number",
+            "description": "Asset market value"
+        },
+        {
+            "yubi_standard_field_id": "AM6",
+            "yubi_staindard_field_name": "FIV Status",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": ""
+        },
+        {
+            "yubi_standard_field_id": "AM7",
+            "yubi_staindard_field_name": "Machinery Type ",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Type of the machiney"
+        },
+        {
+            "yubi_standard_field_id": "AM8",
+            "yubi_staindard_field_name": "hypothecation_value",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Hypothecation value"
+        },
+        {
+            "yubi_standard_field_id": "AM9",
+            "yubi_staindard_field_name": "HYPOTHECATION _PERCENTAGE",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Hypothecation Percentage"
+        },
+        {
+            "yubi_standard_field_id": "AM10",
+            "yubi_staindard_field_name": "New machinery value ",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "value of new machinery"
+        },
+        {
+            "yubi_standard_field_id": "AM11",
+            "yubi_staindard_field_name": "old machinery value ",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Value of old machinery"
+        },
+        {
+            "yubi_standard_field_id": "AM12",
+            "yubi_staindard_field_name": "new machinery _LTV",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "LTV of new machinery"
+        },
+        {
+            "yubi_standard_field_id": "AM13",
+            "yubi_staindard_field_name": "old machinery _LTV",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "LTV of old machinery"
+        },
+        {
+            "yubi_standard_field_id": "AM14",
+            "yubi_staindard_field_name": "total_number_of_machines",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Total number of machines"
+        },
+        {
+            "yubi_standard_field_id": "AM15",
+            "yubi_staindard_field_name": "total_value_of_machines",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Total value of machines"
+        },
+        {
+            "yubi_standard_field_id": "AM16",
+            "yubi_staindard_field_name": "manufacturer_name",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Manufacturer Name"
+        },
+        {
+            "yubi_standard_field_id": "AM17",
+            "yubi_staindard_field_name": "Whether Asset is in negative area",
+            "isMandatory": false,
+            "dataType": "Boolean",
+            "description": "Asset in negative List"
+        },
+        {
+            "yubi_standard_field_id": "AM18",
+            "yubi_staindard_field_name": "Machinery Hypothecated to - ",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Which institution/ individual is the machinery hypothecated to currently?"
+        }
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Loan_ID",
+            "originatorFieldName": "ClioentLoanID",
+            "datatype": "String"
+        }
+    ],
+    "Collection": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "ID",
+            "originatorFieldName": "ID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Installment_Due_date",
+            "originatorFieldName": "InstallmentDueDate",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Installment_Number",
+            "originatorFieldName": "InstallmentNumber",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Principal",
+            "originatorFieldName": "Principal",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Interest",
+            "originatorFieldName": "Interest",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Overdue_Interest",
+            "originatorFieldName": "OverDueAmount",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Total_Amount",
+            "originatorFieldName": "TotalAmount",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "UTR_number",
+            "originatorFieldName": "UTRNumber",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Reference_number",
+            "originatorFieldName": "ReferenceNumber",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Customer_paid_Date",
+            "originatorFieldName": "CustomerPaidDate",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Settlement_date",
+            "originatorFieldName": "SettlementDate",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "payment_type",
+            "originatorFieldName": "PaymentType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Principal_waiver",
+            "originatorFieldName": "PrincipalWaiver",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Interest_waiver",
+            "originatorFieldName": "InterestWaiver",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "EMI_closed",
+            "originatorFieldName": "EMIClosed",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Opening_Principal_outstanding",
+            "originatorFieldName": "OpeningPrincipalOutstanding",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Opening_Advance_outstanding",
+            "originatorFieldName": "OpeningAdvanceOutstanding",
+            "datatype": "Float"
+        }
+    ],
+    "Collection.charges": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "type",
+            "originatorFieldName": "Type",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Amount",
+            "originatorFieldName": "Amount",
+            "datatype": "Float"
+        }
+    ]
+}

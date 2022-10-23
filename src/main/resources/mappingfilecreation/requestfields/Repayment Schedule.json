@@ -1,0 +1,72 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "LOAN_ID",
+            "originatorFieldName": "LoanID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Application_ID",
+            "originatorFieldName": "ApplicationID",
+            "datatype": "String"
+        }
+    ],
+    "Repayments": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "INSTALLMENT_DUE_DATE ",
+            "originatorFieldName": "InstallmentDueDate",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "INSTALLMENT_AMOUNT ",
+            "originatorFieldName": "InstallmentAmount",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "INSTALLMENT_NUMBER",
+            "originatorFieldName": "InstallmentNumber",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "PRINCIPAL",
+            "originatorFieldName": "Principal",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "INTEREST",
+            "originatorFieldName": "Interest",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "PRINCIPAL_OUTSTANDING",
+            "originatorFieldName": "PrincipalOutstanding",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Revised_Active_Investor_Rate",
+            "originatorFieldName": "RevisedActiveInvestorRate",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Revised_End_Borrower_Rate",
+            "originatorFieldName": "RevisedEndBorrowerRate",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Revised_Number_Of_Total_Installments",
+            "originatorFieldName": "RevisedNumberOfTotalInstallments",
+            "datatype": "Number"
+        }
+    ]
+}

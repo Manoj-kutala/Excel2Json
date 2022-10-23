@@ -1,0 +1,84 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Loan_ID",
+            "originatorFieldName": "ClientLoanID",
+            "datatype": "String"
+        }
+    ],
+    "Disbursement_Details": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Net_Disbursed_Amount",
+            "originatorFieldName": "NetDisbursedAmount",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Bank_account_number",
+            "originatorFieldName": "BankAccountNumber",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Account_holder_type",
+            "originatorFieldName": "AccountHolderType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Disbursement_Amount",
+            "originatorFieldName": "DisbursementAmount",
+            "datatype": "Float"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Settlement_date",
+            "originatorFieldName": "SettlementDate",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Disbrusement_date",
+            "originatorFieldName": "DisbursementDate",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "UTR_Number",
+            "originatorFieldName": "UTRNumber",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Refernce_number",
+            "originatorFieldName": "ReferenceNumber",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Instrument_type",
+            "originatorFieldName": "InstrumentType",
+            "datatype": "String"
+        }
+    ]
+}

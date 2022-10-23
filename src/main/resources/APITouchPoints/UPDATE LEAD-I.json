@@ -1,0 +1,259 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "CC1",
+            "yubi_staindard_field_name": "Client_customer_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator Customer ID"
+        }
+    ],
+    "identity": [
+        {
+            "yubi_standard_field_id": "CC3",
+            "yubi_staindard_field_name": "identifierType",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Type of KYC of the Customer"
+        },
+        {
+            "yubi_standard_field_id": "CC4",
+            "yubi_staindard_field_name": "identifier",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "KYC Details of the customer of the above type"
+        },
+        {
+            "yubi_standard_field_id": "CC5",
+            "yubi_staindard_field_name": "issuing country",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Issuing Country in where the identity given"
+        }
+    ],
+    "Customer Demographics": [
+        {
+            "yubi_standard_field_id": "CLI4",
+            "yubi_staindard_field_name": "dateofbirth",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Date of Birth of the Borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI5",
+            "yubi_staindard_field_name": "gender",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Gender of the Borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI6",
+            "yubi_staindard_field_name": "marital status",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Marital Status of the Borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI7",
+            "yubi_staindard_field_name": "category",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Caste of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI8",
+            "yubi_staindard_field_name": "religion",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Religion of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI9",
+            "yubi_staindard_field_name": "nationality",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Nationality of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI10",
+            "yubi_staindard_field_name": "spousename",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "spousename of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI11",
+            "yubi_staindard_field_name": "fathername",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "fathername of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI12",
+            "yubi_staindard_field_name": "mothername",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "mothername of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI13",
+            "yubi_staindard_field_name": "numberofdependents",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "numberofdependents of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI14",
+            "yubi_staindard_field_name": "politicallyexposed",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Is  borrower   politically exposed ?"
+        },
+        {
+            "yubi_standard_field_id": "CLI15",
+            "yubi_staindard_field_name": "spouseoccupation",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "spouseoccupation of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI16",
+            "yubi_staindard_field_name": "No.of Children",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "No.of Children for the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI17",
+            "yubi_staindard_field_name": "Education.Qualification",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Education.Qualification of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI19",
+            "yubi_staindard_field_name": "customer_category",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Customer Category of the borrower"
+        }
+    ],
+    "Income": [
+        {
+            "yubi_standard_field_id": "CLI21",
+            "yubi_staindard_field_name": "Total Experience",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Total work/business experience of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI22",
+            "yubi_staindard_field_name": "Occupation",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Current Occupation of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI23",
+            "yubi_staindard_field_name": "Industry",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Working Industry of the Borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI24",
+            "yubi_staindard_field_name": "currency",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Currency in which he gets the Income"
+        },
+        {
+            "yubi_standard_field_id": "CLI25",
+            "yubi_staindard_field_name": "payment_type",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Payment Mode in which he recieves the salary "
+        }
+    ],
+    "Income.details": [
+        {
+            "yubi_standard_field_id": "CLI26",
+            "yubi_staindard_field_name": "frequency",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Frequency of the Income recieved"
+        },
+        {
+            "yubi_standard_field_id": "CLI27",
+            "yubi_staindard_field_name": "type",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Type of the frequency of the Income"
+        },
+        {
+            "yubi_standard_field_id": "CLI28",
+            "yubi_staindard_field_name": "Value",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Value of the Income "
+        }
+    ],
+    "Employment": [
+        {
+            "yubi_standard_field_id": "CLI29",
+            "yubi_staindard_field_name": "employername",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Employer name of the borrower"
+        },
+        {
+            "yubi_standard_field_id": "CLI30",
+            "yubi_staindard_field_name": "employedsince",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Employed since in the current company"
+        },
+        {
+            "yubi_standard_field_id": "CLI31",
+            "yubi_staindard_field_name": "jobtitle",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Job title of the borrower in current company"
+        },
+        {
+            "yubi_standard_field_id": "CLI32",
+            "yubi_staindard_field_name": "designation",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Desgination of the borrower in current company"
+        },
+        {
+            "yubi_standard_field_id": "CLI33",
+            "yubi_staindard_field_name": "Indsutry",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Industry of the Employer"
+        },
+        {
+            "yubi_standard_field_id": "CLI34",
+            "yubi_staindard_field_name": "Sector",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Sector of the Employer"
+        },
+        {
+            "yubi_standard_field_id": "CLI35",
+            "yubi_staindard_field_name": "Work experience",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Experience in years"
+        },
+        {
+            "yubi_standard_field_id": "CLI36",
+            "yubi_staindard_field_name": "iscurrentemployment",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Is borrower currently working in this company"
+        }
+    ]
+}

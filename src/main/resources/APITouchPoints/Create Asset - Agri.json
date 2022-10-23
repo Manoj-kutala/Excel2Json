@@ -1,0 +1,83 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Agri": [
+        {
+            "yubi_standard_field_id": "AA1",
+            "yubi_staindard_field_name": "Land Holding Type ",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Is the land owned/rented/leased by the borrower?"
+        },
+        {
+            "yubi_standard_field_id": "AA2",
+            "yubi_staindard_field_name": "Land Holding Value In Acres ",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "How much land the borrower owns/leases/rents?"
+        },
+        {
+            "yubi_standard_field_id": "AA3",
+            "yubi_staindard_field_name": "Land Holding Description",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Description on the land holding"
+        },
+        {
+            "yubi_standard_field_id": "AA4",
+            "yubi_staindard_field_name": "Number of Cattle",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Number of cattle owned by the borrower"
+        },
+        {
+            "yubi_standard_field_id": "AA5",
+            "yubi_staindard_field_name": "farming_vintage",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Vintage of farming in years"
+        },
+        {
+            "yubi_standard_field_id": "AA6",
+            "yubi_staindard_field_name": "land_holding",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Land holding area"
+        },
+        {
+            "yubi_standard_field_id": "AA7",
+            "yubi_staindard_field_name": "cropping_pattern",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Pattern of cropping e.g. Quarterly Harvest/ Half-yearly etc."
+        },
+        {
+            "yubi_standard_field_id": "AA8",
+            "yubi_staindard_field_name": "irrigation_source",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Source of Irrigation viz. Canal, River etc."
+        },
+        {
+            "yubi_standard_field_id": "AA9",
+            "yubi_staindard_field_name": "residence_type",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Type of residence viz. kaccha house, pucca house etc."
+        }
+    ]
+}

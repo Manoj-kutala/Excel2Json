@@ -1,0 +1,97 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Client_Loan_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Loan ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Limit": [
+        {
+            "yubi_standard_field_id": "LL1",
+            "yubi_staindard_field_name": "Limit ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Unique LIMIT ID"
+        },
+        {
+            "yubi_standard_field_id": "LL2",
+            "yubi_staindard_field_name": "Total_Approved_Limit",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Total Approved Limit for the Borrower"
+        },
+        {
+            "yubi_standard_field_id": "LL3",
+            "yubi_staindard_field_name": "Limit_Expiry",
+            "isMandatory": true,
+            "dataType": "Date",
+            "description": "Date of Limit Expiry"
+        },
+        {
+            "yubi_standard_field_id": "LL4",
+            "yubi_staindard_field_name": "Opening_Limit_Balance",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Opening limit balance"
+        },
+        {
+            "yubi_standard_field_id": "LL5",
+            "yubi_staindard_field_name": "Closing_Limit_Balance",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Closing balance of limit after this loan"
+        },
+        {
+            "yubi_standard_field_id": "LL6",
+            "yubi_staindard_field_name": "Revised_Total_Limit",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Revised Limit for the borrower"
+        },
+        {
+            "yubi_standard_field_id": "LL7",
+            "yubi_staindard_field_name": "Revised_Opening_Limit_Balance",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Opening limit balance basis the revised limit"
+        },
+        {
+            "yubi_standard_field_id": "LL8",
+            "yubi_staindard_field_name": "Revised_Closing_Llimit_Balance",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Closing limit balance basis the revised limit"
+        },
+        {
+            "yubi_standard_field_id": "LL9",
+            "yubi_staindard_field_name": "Revised_Expiry_Validity",
+            "isMandatory": false,
+            "dataType": "Date",
+            "description": "Revised Date of Limit expiry"
+        }
+    ]
+}

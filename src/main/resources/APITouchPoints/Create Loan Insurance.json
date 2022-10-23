@@ -1,0 +1,92 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Client_Loan_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Loan ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Insurance": [
+        {
+            "yubi_standard_field_id": "LI1",
+            "yubi_staindard_field_name": "type",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Type of Insurance"
+        },
+        {
+            "yubi_standard_field_id": "LI2",
+            "yubi_staindard_field_name": "Insurer Name",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the Insurance company"
+        },
+        {
+            "yubi_standard_field_id": "LI3",
+            "yubi_staindard_field_name": "Insured_Amount",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Amount Insured for"
+        },
+        {
+            "yubi_standard_field_id": "LI4",
+            "yubi_staindard_field_name": "premium_Amount",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Premium Amount for the Policy"
+        },
+        {
+            "yubi_standard_field_id": "LI5",
+            "yubi_staindard_field_name": "Policy_number",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Policy number of the Insurance"
+        }
+    ],
+    "Insurance.nominees": [
+        {
+            "yubi_standard_field_id": "LI6",
+            "yubi_staindard_field_name": "name",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name of the Nominee"
+        },
+        {
+            "yubi_standard_field_id": "LI7",
+            "yubi_staindard_field_name": "dateOfBirth",
+            "isMandatory": false,
+            "dataType": "Date",
+            "description": "Date of Birth of the Nominee"
+        },
+        {
+            "yubi_standard_field_id": "LI8",
+            "yubi_staindard_field_name": "relationship",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Relationship of Nominee with Borrower"
+        }
+    ]
+}

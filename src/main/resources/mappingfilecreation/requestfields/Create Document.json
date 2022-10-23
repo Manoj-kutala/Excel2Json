@@ -1,0 +1,110 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "originator_ID",
+            "originatorFieldName": "originatorId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_customer_ID",
+            "originatorFieldName": "ClientCustomerID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Client_Loan_ID",
+            "originatorFieldName": "ClientLoanID",
+            "datatype": "String"
+        }
+    ],
+    "Documents": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "source",
+            "originatorFieldName": "Source",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "sourceType",
+            "originatorFieldName": "SourceType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "doc_id",
+            "originatorFieldName": "DocId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "format",
+            "originatorFieldName": "Format",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "type",
+            "originatorFieldName": "Type",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "url",
+            "originatorFieldName": "URL",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "data",
+            "originatorFieldName": "Data",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "issue_Date",
+            "originatorFieldName": "IssueDate",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "expiry_Date",
+            "originatorFieldName": "ExpiryDate",
+            "datatype": "Date"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "issuing_Authority",
+            "originatorFieldName": "IssuingAuthority",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "password",
+            "originatorFieldName": "Password",
+            "datatype": "String"
+        }
+    ],
+    "zip": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "url",
+            "originatorFieldName": "URL1",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "data",
+            "originatorFieldName": "Data1",
+            "datatype": "String"
+        }
+    ]
+}

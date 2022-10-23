@@ -1,0 +1,206 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Gold": [
+        {
+            "yubi_standard_field_id": "AG1",
+            "yubi_staindard_field_name": "Asset_Id",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Reference Number for the customer "
+        },
+        {
+            "yubi_standard_field_id": "AG2",
+            "yubi_staindard_field_name": "UNITS NUMBER OF JEWELLERY",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Number of units of jewels pledged"
+        },
+        {
+            "yubi_standard_field_id": "AG3",
+            "yubi_staindard_field_name": "Total Gross Weight of Jewels",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Total gross weight of all the jewels pledged"
+        },
+        {
+            "yubi_standard_field_id": "AG4",
+            "yubi_staindard_field_name": "Total Gross Value of Jewels",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Total gross value of all the jewels pledged "
+        },
+        {
+            "yubi_standard_field_id": "AG5",
+            "yubi_staindard_field_name": "Total Net Weight of Jewels",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Total net weight of all the jewels pledged"
+        },
+        {
+            "yubi_standard_field_id": "AG6",
+            "yubi_staindard_field_name": "Total Net Value of Jewels",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Total net value of all the jewels pledged"
+        },
+        {
+            "yubi_standard_field_id": "AG7",
+            "yubi_staindard_field_name": "Valuer_ID",
+            "isMandatory": false,
+            "dataType": "string",
+            "description": "Source ID generated"
+        },
+        {
+            "yubi_standard_field_id": "AG8",
+            "yubi_staindard_field_name": "Valuer_name",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Employer  Name who did the assessment of the jewels"
+        },
+        {
+            "yubi_standard_field_id": "AG9",
+            "yubi_staindard_field_name": "Appraiser ID",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "ID of the appraiser"
+        },
+        {
+            "yubi_standard_field_id": "AG10",
+            "yubi_staindard_field_name": "Comments",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Comments"
+        },
+        {
+            "yubi_standard_field_id": "AG11",
+            "yubi_staindard_field_name": "Customer Income Group",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Income Group of the customer"
+        },
+        {
+            "yubi_standard_field_id": "AG10",
+            "yubi_staindard_field_name": "Geo Class",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Urban/Rural/Metropolitan"
+        }
+
+        
+    ],
+    "Gold.Jewellery": [
+        {
+            "yubi_standard_field_id": "AG13",
+            "yubi_staindard_field_name": "JEWELLERY ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "ID for the Jewels pledged"
+        },
+        {
+            "yubi_standard_field_id": "AG14",
+            "yubi_staindard_field_name": "JEWELLERY NAME",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Name for the jewels pledged"
+        },
+        {
+            "yubi_standard_field_id": "AG15",
+            "yubi_staindard_field_name": "TYPE OF JEWELLERY",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Type of the jewels pledged"
+        },
+        {
+            "yubi_standard_field_id": "AG16",
+            "yubi_staindard_field_name": "JEWELLERY COUNT",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Total Number of the jewellery type"
+        },
+        {
+            "yubi_standard_field_id": "AG17",
+            "yubi_staindard_field_name": "PURITY GRADE",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Purity of the gold"
+        },
+        {
+            "yubi_standard_field_id": "AG18",
+            "yubi_staindard_field_name": "GOLD RATE CONSIDERED",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Gold rate at the time of pledging"
+        },
+        {
+            "yubi_standard_field_id": "AG19",
+            "yubi_staindard_field_name": "GROSS WEIGHT OF JEWELLERY",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Gross weight of jewellery"
+        },
+        {
+            "yubi_standard_field_id": "AG20",
+            "yubi_staindard_field_name": "GROSS VALUE OF JEWELLERY",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Gross Value of Jewellery"
+        },
+        {
+            "yubi_standard_field_id": "AG21",
+            "yubi_staindard_field_name": "IMPURITY WEIGHT FOR DEDUCTION",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Impurity weight that has to be deducted"
+        },
+        {
+            "yubi_standard_field_id": "AG22",
+            "yubi_staindard_field_name": "NET WEIGHT OF JEWELLERY",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Net Weight of Jewellery"
+        },
+        {
+            "yubi_standard_field_id": "AG23",
+            "yubi_staindard_field_name": "NET VALUE OF JEWELLERY",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Net Value of Jewellery"
+        },
+        {
+            "yubi_standard_field_id": "AG24",
+            "yubi_staindard_field_name": "METAL WEIGHT",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Metal weight in the jewels pledged"
+        },
+        {
+            "yubi_standard_field_id": "AG25",
+            "yubi_staindard_field_name": "NET VALUE OF THE METAL",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Net Value of the metal"
+        },
+        {
+            "yubi_standard_field_id": "AG26",
+            "yubi_staindard_field_name": "TOTAL VALUE OF THE JEWEL PLEDGED",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Total value of the jewel pledged"
+        }
+    ]
+}

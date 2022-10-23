@@ -1,0 +1,72 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "originator_ID",
+            "originatorFieldName": "OriginatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_customer_ID",
+            "originatorFieldName": "ClientCustomerID",
+            "datatype": "String"
+        }
+    ],
+    "Verify KYC": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "CKYC_ID",
+            "originatorFieldName": "CKYCID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "CKYC_DATE_OF_birth",
+            "originatorFieldName": "CKYCDateOfBirth",
+            "datatype": "Date format"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "CKYC_PAN_NUMBER ",
+            "originatorFieldName": "CKYCPanNumber",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "CKYC_MOBILE NUMBER ",
+            "originatorFieldName": "CKYCMobileNumber",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "CKYC_PERMANENT_PINCODE",
+            "originatorFieldName": "CKYCPermanentPincode",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "CKYC_PASSPORT_NUMBER",
+            "originatorFieldName": "CKYCPassportNumber",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "CKYC_DL_NUMBER",
+            "originatorFieldName": "CKYCDLNumber",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "CKYC_VOTERID_NUMBER",
+            "originatorFieldName": "CKYCVoterIDNumber",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "CKYC_Action_trigger",
+            "originatorFieldName": "CKYCActionTrigger",
+            "datatype": "String"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        },
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Client_Loan_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Loan ID"
+        }
+    ],
+    "Disbursement_Details": [
+        {
+            "yubi_standard_field_id": "DD1",
+            "yubi_staindard_field_name": "Net_Disbursed_Amount",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Net Disbursement amount after charges"
+        },
+        {
+            "yubi_standard_field_id": "DD2",
+            "yubi_staindard_field_name": "Bank_account_number",
+            "isMandatory": true,
+            "dataType": "Number",
+            "description": "Bank Account number "
+        },
+        {
+            "yubi_standard_field_id": "DD3",
+            "yubi_staindard_field_name": "Account_holder_type",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Account_holder_type"
+        },
+        {
+            "yubi_standard_field_id": "DD4",
+            "yubi_staindard_field_name": "Disbursement_Amount",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Disbursement amount before charges"
+        },
+        {
+            "yubi_standard_field_id": "DD5",
+            "yubi_staindard_field_name": "Settlement_date",
+            "isMandatory": false,
+            "dataType": "Date",
+            "description": "Settlement Date for the transaction"
+        },
+        {
+            "yubi_standard_field_id": "DD6",
+            "yubi_staindard_field_name": "Disbrusement_date",
+            "isMandatory": true,
+            "dataType": "Date",
+            "description": "Disbursement Date for the transaction"
+        },
+        {
+            "yubi_standard_field_id": "DD7",
+            "yubi_staindard_field_name": "UTR_Number",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "UTR Number for the transaction"
+        },
+        {
+            "yubi_standard_field_id": "DD8",
+            "yubi_staindard_field_name": "Refernce_number",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Reference Number for the transaction"
+        },
+        {
+            "yubi_standard_field_id": "DD9",
+            "yubi_staindard_field_name": "Instrument_type",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Instrument Type for the transaction"
+        }
+    ]
+}

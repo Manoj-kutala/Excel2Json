@@ -1,0 +1,74 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Loan_ID",
+            "originatorFieldName": "ClientLoanID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementID",
+            "datatype": "String"
+        }
+    ],
+    "Bureau": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Bureau_Type",
+            "originatorFieldName": "BureauType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Bureau_Name",
+            "originatorFieldName": "BureauName",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Bureau_Score",
+            "originatorFieldName": "BureauScore",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Bureau_Vintage",
+            "originatorFieldName": "BureauVintage",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Partner_score_on_the_customer",
+            "originatorFieldName": "PartnerScoreOnCustomer",
+            "datatype": "Number"
+        }
+    ],
+    "Extensions": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Key",
+            "originatorFieldName": "Key",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Value",
+            "originatorFieldName": "Value",
+            "datatype": "String"
+        }
+    ]
+}

@@ -1,0 +1,224 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_customer_ID",
+            "originatorFieldName": "ClientCustomerID",
+            "datatype": "String"
+        }
+    ],
+    "identity": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "identifier_Type",
+            "originatorFieldName": "IdentifierType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "identifier",
+            "originatorFieldName": "Identifier",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "issuing_country",
+            "originatorFieldName": "IssuingCountry",
+            "datatype": "String"
+        }
+    ],
+    "Customer Demographics": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "date_of_birth",
+            "originatorFieldName": "DateOfBirth",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "gender",
+            "originatorFieldName": "Gender",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "marital_status",
+            "originatorFieldName": "MartialStatus",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "category",
+            "originatorFieldName": "Category",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "religion",
+            "originatorFieldName": "Religion",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "nationality",
+            "originatorFieldName": "Nationality",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "spouse_name",
+            "originatorFieldName": "SpouceName",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "father_name",
+            "originatorFieldName": "FatherName",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "mother_name",
+            "originatorFieldName": "MotherName",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "number_of_dependents",
+            "originatorFieldName": "NumberOfDependents",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "politically_exposed",
+            "originatorFieldName": "PoliticallyExposed",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "spouse_occupation",
+            "originatorFieldName": "SpouceOccupation",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "No_of_Children",
+            "originatorFieldName": "NoOfChildren",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Education_Qualification",
+            "originatorFieldName": "EducationQualification",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "customer_category",
+            "originatorFieldName": "CustomerCategory",
+            "datatype": "String"
+        }
+    ],
+    "Income": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Total_Experience",
+            "originatorFieldName": "TotalExperience",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Occupation",
+            "originatorFieldName": "Occupation",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Industry",
+            "originatorFieldName": "Industry",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "currency",
+            "originatorFieldName": "Currency",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "payment_type",
+            "originatorFieldName": "PaymentType",
+            "datatype": "String"
+        }
+    ],
+    "Income.details": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "frequency",
+            "originatorFieldName": "Frequency",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "type",
+            "originatorFieldName": "Type",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Value",
+            "originatorFieldName": "Value",
+            "datatype": "String"
+        }
+    ],
+    "Employment": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "employer_name",
+            "originatorFieldName": "EmployerName",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "employed_since",
+            "originatorFieldName": "EmployedSince",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "jobtitle",
+            "originatorFieldName": "JobTitle",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "designation",
+            "originatorFieldName": "Designation",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Indsutry",
+            "originatorFieldName": "Industry",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Sector",
+            "originatorFieldName": "Sector",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Work_experience",
+            "originatorFieldName": "WorkExperience",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "is_current_employment",
+            "originatorFieldName": "IsCurrnetEmployment",
+            "datatype": "String"
+        }
+    ]
+}

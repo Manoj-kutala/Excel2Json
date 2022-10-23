@@ -1,0 +1,11 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "Y12",
+            "yubi_staindard_field_name": "Yubi_Payment_Id",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Yubi Payment Id"
+        }
+    ]
+}

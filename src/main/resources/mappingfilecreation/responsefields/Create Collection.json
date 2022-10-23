@@ -1,0 +1,10 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Yubi_Payment_Id",
+            "originatorFieldName": "YubiPaymentID",
+            "datatype": "String"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "H1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A1",
+            "yubi_staindard_field_name": "Client_Application_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Application ID"
+        },
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Client_Loan_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Client Loan ID"
+        },
+        {
+            "yubi_standard_field_id": "H2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Balance Transfer": [
+        {
+            "yubi_standard_field_id": "LBT1",
+            "yubi_staindard_field_name": "Name of BT Financier",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Name of BT Financier"
+        },
+        {
+            "yubi_standard_field_id": "LBT2",
+            "yubi_staindard_field_name": "Loan Amount of Original Loan",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Loan Amount of the existing loan"
+        },
+        {
+            "yubi_standard_field_id": "LBT3",
+            "yubi_staindard_field_name": "Tenure of Original Loan in months",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Tenure of the existing loan"
+        },
+        {
+            "yubi_standard_field_id": "LBT4",
+            "yubi_staindard_field_name": "Balance Tenure of Original Loan in months",
+            "isMandatory": false,
+            "dataType": "String",
+            "description": "Balance tenure of the existing loan"
+        },
+        {
+            "yubi_standard_field_id": "LBT5",
+            "yubi_staindard_field_name": "POS of Original Loan",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Principal Outstanding of existing loan"
+        },
+        {
+            "yubi_standard_field_id": "LBT6",
+            "yubi_staindard_field_name": "No of EMI paid in Base Loan",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "No of EMIS paid so far in the existing loan"
+        },
+        {
+            "yubi_standard_field_id": "LBT7",
+            "yubi_staindard_field_name": "DPD in last 6M in Base Loan",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "DPD in last six month in the existing loan"
+        },
+        {
+            "yubi_standard_field_id": "LBT8",
+            "yubi_staindard_field_name": "Bounces in last 6M in base loan",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "Bounces in last six month in the existing loan"
+        },
+        {
+            "yubi_standard_field_id": "LBT9",
+            "yubi_staindard_field_name": "Approved LTV of Original Loan",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Approved LTV of exisitng Loan"
+        },
+        {
+            "yubi_standard_field_id": "LBT10",
+            "yubi_staindard_field_name": "LTV of Top up loan",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "LTV of Top up loan"
+        },
+        {
+            "yubi_standard_field_id": "LBT11",
+            "yubi_staindard_field_name": "Percentage of Reduction In Principal",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "Percentage of Reduction In Principal in existing loan"
+        }
+    ]
+}

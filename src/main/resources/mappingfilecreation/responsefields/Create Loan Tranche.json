@@ -1,0 +1,64 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_customer_ID",
+            "originatorFieldName": "clientCustomerID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Borrower_ID",
+            "originatorFieldName": "YubiBorrowerId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Product_Borrower_ID",
+            "originatorFieldName": "YubiProductBorrowerID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Application_Id",
+            "originatorFieldName": "YubiApplicationId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Product_Application_Id",
+            "originatorFieldName": "YubiProductApplicationID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Loan_Id",
+            "originatorFieldName": "YubiLoanId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Client_Loan_ID",
+            "originatorFieldName": "ClientLoanId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Product_Loan_Id",
+            "originatorFieldName": "YubiProductLoanId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Yubi_Tranche_Id",
+            "originatorFieldName": "YubiTrancheId",
+            "datatype": "String"
+        }
+    ]
+}

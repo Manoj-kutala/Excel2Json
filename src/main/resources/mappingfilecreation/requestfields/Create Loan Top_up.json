@@ -1,0 +1,69 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Application_ID",
+            "originatorFieldName": "ClientApplicationID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_Loan_ID",
+            "originatorFieldName": "ClientLoanID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Engagement_ID",
+            "originatorFieldName": "EngagementId",
+            "datatype": "String"
+        }
+        
+    ],
+    "top_up": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "linked_loan_id",
+            "originatorFieldName": "LinkedLoanId",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "fore_closure",
+            "originatorFieldName": "ForeClosure",
+            "datatype": "Boolean"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "principal",
+            "originatorFieldName": "Principal",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "interest",
+            "originatorFieldName": "Interest",
+            "datatype": "String"
+        }
+    ],
+    "top_up.charges": [
+        {
+            "isMandatory": false,
+            "yubiFieldName": "type",
+            "originatorFieldName": "Type",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "amount",
+            "originatorFieldName": "Amount",
+            "datatype": "Float"
+        }
+    ]
+}

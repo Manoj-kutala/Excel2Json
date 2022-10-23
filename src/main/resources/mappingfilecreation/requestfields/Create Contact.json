@@ -1,0 +1,136 @@
+{
+    "meta-data": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "originator_ID",
+            "originatorFieldName": "originatorID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Client_customer_ID",
+            "originatorFieldName": "ClientCustomerID",
+            "datatype": "String"
+        }
+    ],
+    "phone": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "type",
+            "originatorFieldName": "Type",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Number",
+            "originatorFieldName": "Number",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Area Code",
+            "originatorFieldName": "AreaCode",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "is preferred",
+            "originatorFieldName": "IsPreferred",
+            "datatype": "String"
+        }
+    ],
+    "email": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "type",
+            "originatorFieldName": "Type",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "id",
+            "originatorFieldName": "ID",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "is_preferred",
+            "originatorFieldName": "isPreferred1",
+            "datatype": "String"
+        }
+    ],
+    "address": [
+        {
+            "isMandatory": true,
+            "yubiFieldName": "addressType",
+            "originatorFieldName": "AddressType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "ownershipType",
+            "originatorFieldName": "OwnershipType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Area_type",
+            "originatorFieldName": "AreaType",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "Addres_Line_1",
+            "originatorFieldName": "AddressLine1",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Addres_Line_2",
+            "originatorFieldName": "AddressLine2",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Addres_Line_3",
+            "originatorFieldName": "AddressLine3",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Geo-Location",
+            "originatorFieldName": "GeoLocation",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "pincode",
+            "originatorFieldName": "PinCode",
+            "datatype": "Number"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "city",
+            "originatorFieldName": "City",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "state",
+            "originatorFieldName": "State",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": true,
+            "yubiFieldName": "country",
+            "originatorFieldName": "Country",
+            "datatype": "String"
+        },
+        {
+            "isMandatory": false,
+            "yubiFieldName": "Years_of_stay_in_address",
+            "originatorFieldName": "YearsOfStayInAddress",
+            "datatype": "String"
+        }
+    ]
+}

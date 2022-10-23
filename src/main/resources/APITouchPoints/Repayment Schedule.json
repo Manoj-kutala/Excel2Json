@@ -1,0 +1,83 @@
+{
+    "meta-data": [
+        {
+            "yubi_standard_field_id": "L1",
+            "yubi_staindard_field_name": "Originator_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Originator ID"
+        },
+        {
+            "yubi_standard_field_id": "A2",
+            "yubi_staindard_field_name": "Engagement_ID",
+            "isMandatory": true,
+            "dataType": "String",
+            "description": "Engagement ID of the Product"
+        }
+    ],
+    "Repayments": [
+        {
+            "yubi_standard_field_id": "RS1",
+            "yubi_staindard_field_name": "INSTALLMENT DUE DATE ",
+            "isMandatory": true,
+            "dataType": "Date",
+            "description": "Due date for the installment; To be provided as an array for every installment, this will be clear in the API contract"
+        },
+        {
+            "yubi_standard_field_id": "RS2",
+            "yubi_staindard_field_name": "INSTALLMENT AMOUNT ",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Total EMI amount; To be provided as an array for every installment, this will be clear in the API contract"
+        },
+        {
+            "yubi_standard_field_id": "RS3",
+            "yubi_staindard_field_name": "INSTALLMENT NUMBER",
+            "isMandatory": true,
+            "dataType": "Number",
+            "description": "Installment number"
+        },
+        {
+            "yubi_standard_field_id": "RS4",
+            "yubi_staindard_field_name": "PRINCIPAL",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Principal to be paid in the installment"
+        },
+        {
+            "yubi_standard_field_id": "RS5",
+            "yubi_staindard_field_name": "INTEREST",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Interest to be paid in the installment"
+        },
+        {
+            "yubi_standard_field_id": "RS6",
+            "yubi_staindard_field_name": "PRINCIPAL OUTSTANDING",
+            "isMandatory": true,
+            "dataType": "Float",
+            "description": "Closing Principal Oustanding"
+        },
+        {
+            "yubi_standard_field_id": "RS7",
+            "yubi_staindard_field_name": "Revised Active Investor Rate",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "The revised rate of the investor in case of floating rate"
+        },
+        {
+            "yubi_standard_field_id": "RS8",
+            "yubi_staindard_field_name": "Revised End Borrower Rate",
+            "isMandatory": false,
+            "dataType": "Float",
+            "description": "The revised rate for the end borrower in case of floating rate"
+        },
+        {
+            "yubi_standard_field_id": "RS9",
+            "yubi_staindard_field_name": "Revised Number Of Total Installments",
+            "isMandatory": false,
+            "dataType": "Number",
+            "description": "The total number of instalments after the rate revision"
+        }
+    ]
+}
